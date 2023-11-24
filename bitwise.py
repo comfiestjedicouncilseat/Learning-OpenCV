@@ -27,7 +27,4 @@ bitwise_not = cv.bitwise_not(rectangle)
 cv.imshow("Bitwise NOT Rectangle", bitwise_not)
 
 
-
-
-
 cv.waitKey(0)
