@@ -68,5 +68,5 @@ face_recognizer.train(features, labels)
 # Save the trained data to a yaml file
 face_recognizer.save("face_trained.yml")
 # Save the features and labels arrays to npy files
-np.save("features.npy", features)
-np.save("labels.npy", labels)
+# np.save("features.npy", features)
+# np.save("labels.npy", labels)
