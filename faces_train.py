@@ -7,7 +7,7 @@ import numpy as np
 # Created a list for the people, and the directory path to the folders with
 # the pictures
 people = []
-DIR = r"C:\Users\Michael\OneDrive\Documents\Coding\OpenCVLearning\Faces\train"
+DIR = r"C:\Users\Michael\Documents\Coding\OpenCVLearning\Faces\train"
 # For all the folders in the "Faces\train" directory, append the name to the
 # people list
 for i in os.listdir(DIR):

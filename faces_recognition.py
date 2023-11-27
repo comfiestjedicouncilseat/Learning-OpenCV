@@ -5,7 +5,7 @@ import os
 
 # Creates a peoples list
 people = []
-DIR = r"C:\Users\Michael\OneDrive\Documents\Coding\OpenCVLearning\Faces\train"
+DIR = r"C:\Users\Michael\Documents\Coding\OpenCVLearning\Faces\train"
 for i in os.listdir(DIR):
     people.append(i)
 
@@ -19,7 +19,7 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read("face_trained.yml")
 
 # Read the image that is to be recognized, change to grayscale
-img = cv.imread(r"C:\Users\Michael\OneDrive\Documents\Coding"
+img = cv.imread(r"C:\Users\Michael\Documents\Coding"
                 r"\OpenCVLearning\Faces\val\ben_afflek\2.jpg")
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
